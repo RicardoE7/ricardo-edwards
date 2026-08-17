@@ -1,10 +1,10 @@
 import { motion } from 'motion/react'
 
 const links = [
-  ['Work', '#work'],
-  ['Process', '#process'],
-  ['Experience', '#experience'],
   ['Toolbox', '#toolbox'],
+  ['Work', '#work'],
+  ['Experience', '#experience'],
+  ['Education', '#education'],
 ] as const
 
 export function Nav() {

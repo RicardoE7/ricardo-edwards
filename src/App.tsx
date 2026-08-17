@@ -143,7 +143,7 @@ function App() {
           </div>
         </section>
 
-        <section className="px-5 py-28 sm:px-8 sm:py-36 lg:px-12 lg:py-44">
+        <section id="education" className="px-5 py-28 sm:px-8 sm:py-36 lg:px-12 lg:py-44">
           <div className="mx-auto max-w-6xl">
             <Reveal><SectionHeading eyebrow="Education" title="Still becoming." /></Reveal>
             <div className="mt-16 grid gap-px overflow-hidden rounded-[1.75rem] border border-white/[.08] bg-white/[.08] sm:grid-cols-2">

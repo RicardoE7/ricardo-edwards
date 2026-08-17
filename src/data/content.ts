@@ -39,7 +39,7 @@ export const experiences: Experience[] = [
 
 export const education = [
   ['Per Scholas', 'Software Engineering Training', 'Expected Oct 2026'],
-  ['Western Governors University', 'Degree in progress', 'Current'],
+  ['Western Governors University', 'Degree in progress', 'Expected Jun 2027'],
   ['CodersCampus', 'Full-Stack Java Bootcamp', 'Jan 2024'],
   ['Sabio', 'Full-Stack Web Development Bootcamp', 'Oct 2023'],
 ] as const
