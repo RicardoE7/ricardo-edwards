@@ -1,5 +1,3 @@
-# Ricardo OS
-
 A premium, story-driven personal website built with React, TypeScript, Vite, Tailwind CSS v4, and Motion for React.
 
 ## Run locally
