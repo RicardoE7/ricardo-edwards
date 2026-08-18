@@ -3,7 +3,7 @@ import { Nav } from './components/Nav'
 import { ProjectStage } from './components/ProjectStage'
 import { Reveal } from './components/Reveal'
 import { SectionHeading } from './components/SectionHeading'
-import { education, experiences, toolbox } from './data/content'
+import { education, experiences, projects, toolbox } from './data/content'
 import ricardo from './images/ricardo.png'
 
 function App() {
@@ -112,17 +112,9 @@ function App() {
         <section id="work" className="px-5 py-28 sm:px-8 sm:py-36 lg:px-12 lg:py-44">
           <div className="mx-auto max-w-6xl">
             <Reveal><SectionHeading eyebrow="Selected Work" title="Products, not exercises." copy="The work I care about most starts with a real problem, then earns its complexity one decision at a time." /></Reveal>
-            <Reveal className="mt-16"><ProjectStage /></Reveal>
-            <div className="mt-5 grid gap-5 md:grid-cols-2">
-              {[
-                ['Production UI System', 'WeMakeGoodSoftware', '50+ reusable React components translated from Figma into a consistent production interface.'],
-                ['Next system', 'Reserved', 'The bar for the next project is simple: it has to teach me something worth keeping.'],
-              ].map(([title, label, copy]) => (
-                <Reveal key={title} className="group rounded-[1.75rem] border border-white/[.08] bg-[#0b0b0d] p-8 transition duration-300 hover:-translate-y-1 hover:border-white/[.14] sm:p-10">
-                  <p className="text-[11px] text-white/32">{label}</p>
-                  <h3 className="mt-20 text-2xl font-medium tracking-[-.035em]">{title}</h3>
-                  <p className="mt-4 max-w-md text-sm leading-6 text-white/42">{copy}</p>
-                </Reveal>
+            <div className="mt-16 space-y-5">
+              {projects.map((project) => (
+                <Reveal key={project.title}><ProjectStage project={project} /></Reveal>
               ))}
             </div>
           </div>
