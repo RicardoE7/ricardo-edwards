@@ -67,10 +67,12 @@ export const projects: Project[] = [
     title: 'Omnime',
     status: 'In development',
     headline: 'Discovery should feel personal.',
-    copy: 'A full-stack AI-powered anime discovery platform that learns from user preferences, ratings, and watch history to deliver personalized recommendations and make finding your next great show effortless.',
+    copy: 'A full-stack AI-powered anime discovery platform that learns from user preferences, ratings, and watch history to deliver personalized recommendations and make finding your next great show effortless. *in development* ',
     stack: ['React', 'Java', 'Spring Boot', 'MySQL', 'AniList API'],
     image: omnime,
     imageAlt: 'Omnime anime discovery interface with recommendations, watchlist, and genre filters',
+    liveUrl: 'https://omnime-three.vercel.app/',
+    githubUrl: 'https://github.com/RicardoE7/omnime',
   },
   {
     eyebrow: 'Live product',
