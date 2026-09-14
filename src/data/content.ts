@@ -71,7 +71,7 @@ export const projects: Project[] = [
     stack: ['React', 'Java', 'Spring Boot', 'MySQL', 'AniList API'],
     image: omnime,
     imageAlt: 'Omnime anime discovery interface with recommendations, watchlist, and genre filters',
-    liveUrl: 'https://omnime-three.vercel.app/',
+    liveUrl: 'https://getomnime.com/',
     githubUrl: 'https://github.com/RicardoE7/omnime',
   },
   {
