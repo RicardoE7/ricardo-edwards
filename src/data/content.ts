@@ -1,5 +1,5 @@
 import omnime from '../images/omnime.png'
-import ipTracker from '../images/ip-address-tracker.png'
+import storyVault from '../images/story-vault.png'
 import realtorPage from '../images/realtor-page.png'
 
 export type Experience = {
@@ -76,15 +76,15 @@ export const projects: Project[] = [
   },
   {
     eyebrow: 'Live product',
-    title: 'IP Address Tracker',
+    title: 'Story Vault',
     status: 'Live',
-    headline: 'Look up any IP. See it on the map.',
-    copy: 'Look up any public IP address or domain and see where it maps on the globe. The app detects your IP on first visit, then lets you search another address. Results include location, timezone, and ISP, with a pin on an interactive map.',
-    stack: ['HTML', 'JavaScript', 'Tailwind CSS', 'IPify', 'Leaflet'],
-    image: ipTracker,
-    imageAlt: 'IP Address Tracker showing location, timezone, ISP, and an interactive map pin',
-    liveUrl: 'https://ip-address-tracker-kappa-liart.vercel.app/',
-    githubUrl: 'https://github.com/RicardoE7/ip-address-tracker',
+    headline: 'Keep your stories. Build your worlds.',
+    copy: 'A private worldbuilding workspace for writers. Create and manage stories, then organize characters, locations, events, factions, and items in one place — with accounts, Cloudinary image uploads, and a responsive editorial interface.',
+    stack: ['React', 'Vite', 'Tailwind CSS', 'Express', 'MongoDB', 'Cloudinary'],
+    image: storyVault,
+    imageAlt: 'Story Vault sign-in screen for a private worldbuilding workspace',
+    liveUrl: 'https://story-vault-omega.vercel.app/',
+    githubUrl: 'https://github.com/RicardoE7/story-vault',
   },
   {
     eyebrow: 'Client work',
