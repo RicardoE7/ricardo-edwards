@@ -82,7 +82,7 @@ export const projects: Project[] = [
     copy: 'A private worldbuilding workspace for writers. Create and manage stories, then organize characters, locations, events, factions, and items in one place — with accounts, Cloudinary image uploads, and a responsive editorial interface.',
     stack: ['React', 'Vite', 'Tailwind CSS', 'Express', 'MongoDB', 'Cloudinary'],
     image: storyVault,
-    imageAlt: 'Story Vault sign-in screen for a private worldbuilding workspace',
+    imageAlt: 'Story Vault story library with editorial cards for worldbuilding projects',
     liveUrl: 'https://story-vault-omega.vercel.app/',
     githubUrl: 'https://github.com/RicardoE7/story-vault',
   },
